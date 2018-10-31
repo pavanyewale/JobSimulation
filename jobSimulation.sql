@@ -5,6 +5,8 @@ DROP TABLE IF  EXISTS worldState;
 DROP TABLE IF  EXISTS clients;
 DROP TABLE IF  EXISTS randomJobs;
 PRAGMA recursive_triggers = ON;
+.HEADERS ON
+.COLUMNS
 CREATE TABLE IF NOT exists params
 (
 	numberOfClients int,
